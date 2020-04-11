@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "powerNotifier2.0",
-    "slug": "powerNotifier2.0",
+    "slug": "power-notifier",
     "platforms": [
       "ios",
       "android",
@@ -18,11 +18,9 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
+    "android": {
+      "package":"com.f18.powerNotifier",
+      "versionCode": 1
     }
   }
 }
